@@ -1,0 +1,105 @@
+
+<body>
+    
+      <div 
+        id="Zone"
+        style="
+       
+         background-color: rgba(100, 150, 185, 0); 
+         width: 600px;
+         height: 200px;
+         flex-shrink: 0;
+         display: flex;
+         border: 0px solid rgb(114, 72, 0);
+         align-items: center;
+         position: absolute;
+         top: 500;
+         left: 1100;
+         
+         
+         "
+         >
+         <div id="sp"
+          style ="
+         font: 90px Arial;
+         color: aqua;
+         position: relative;
+         left: 270px;
+         display: none"
+         >sp: </div>
+        <div id="moneys"
+         style ="
+         font: 90px Arial;
+         color: aqua;
+         position: relative;
+         left: 300px;
+         display: none;
+        ">
+        10
+        </div>
+  
+       </div>
+
+        </div>
+        <div style="position: absolute;
+        left: 820;
+        top: 1270;
+        ;"
+        >
+             <button style="width: 320;
+              height: 123;
+              
+              border: 0px solid rgb(114, 72, 0);
+              position: centers;
+              background-color: rgba(26, 26, 201, 0.4);
+              background-repeat: no-repeat; 
+              background-position: top center; 
+              display: block;
+              
+             "
+              type="submit3" 
+             class="btn btn-success;"
+              id = "submit3"
+              onclick="document.querySelector('#moneys').innerHTML = player.money
+              document.getElementById('sp').style.display = 'block'
+              document.getElementById('moneys').style.display = 'block'"
+              
+              >  </button>
+              
+        </div>
+        <div style="position: absolute;
+        left: 610;
+        top: 580;
+        ;"
+        >
+
+             <button style="width: 100;
+              height:40 ;
+              
+              border: 0px solid rgb(114, 72, 0);
+              position: centers;
+              background-color: rgba(26, 26, 201, 0.9);
+              background-repeat: no-repeat; 
+              background-position: top center; 
+              display: none;
+              
+             "
+              type="submit4" 
+             class="btn btn-success;"
+              id = "submit4"
+              onclick=" document.getElementById('submit4').style.display = 'none' ;
+              player.lvl -= 900; console.log(player.lvl)"
+              
+              >  
+            </button>
+              
+        </div>
+    </div>
+</body>
+
+
+<span id="count"></span><br>
+<canvas id="canvas"></canvas>
+<script src = 'actions.js'></script>
+<script src ="classes/classes.js"></script>
+<script src="testind.js"></script>
