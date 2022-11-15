@@ -1,0 +1,252 @@
+<head>
+
+    <style>
+        * {
+        box-sizing: border-box; 
+        }
+    </style>
+</head>
+<body>
+  
+    </div>
+    <div class="content">
+    <div style="position: relative; display: inline-block;">
+        
+       
+        <!--smal red cont div-->
+        <div 
+         style = "
+          position: absolute; 
+          display: flex;
+          width: 100%;
+          align-items:center;
+          padding: 20px;
+         "
+         
+      
+      >
+            <!--Player health-->
+            <div style= "position: relative; height: 30px; width: 100%; display: flex; justify-content: flex-end;">
+                <div
+                 
+                style = "background-color: red; 
+                height: 30px;
+                width: 100%"
+               
+                ></div>
+                <div
+                id="Playerhealth"
+                 style="position: absolute;
+                  background: yellow;
+                   top: 0; 
+                   right: 0; 
+                   bottom: 0; 
+                   width: 100%;
+                   ">
+                   </div>
+                </div>
+             
+
+            <!--Timer-->
+            <div 
+            id="timer"
+            style="
+             background-color: blue; 
+             width: 100px;
+             height: 50px;
+             flex-shrink: 0;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             "
+             >
+             10
+            </div>
+
+            <div 
+            style="
+             background-color: rgba(100, 150, 185, 0); 
+             width: 148px;
+             height: 35px;
+             flex-shrink: 0;
+             display: flex;
+             border: 4px solid rgb(114, 72, 0);
+             align-items: center;
+             position: absolute;
+             top: 27;
+             left: 20;
+             bottom: 300;
+             
+             "
+             >
+            
+            </div>
+            
+            <!--Enemy health-->
+              <div style= "position: relative; height: 30px; width: 100%;">
+            <div
+             
+            style = "background-color: red; 
+            height: 30px;"
+            ></div>
+            <div
+            id="enemyhealth"
+             style="position: absolute;
+              background: yellow;
+               top: 0; 
+               right: 0; 
+               bottom: 0; 
+               left: 0;">
+               </div>
+               
+               
+            </div>
+            
+        <div></div>
+        
+        <div 
+        
+    
+            style=" position: relative; height: 35px; width: 148px;
+             
+             background-color: rgba(100, 150, 185, 0); 
+             
+             flex-shrink: 0;
+             display: flex;
+             border: 4px solid rgb(114, 72, 0);
+             align-items: center;
+             position: absolute;
+             top: 27;
+             left:  164;
+             bottom: 300;
+             
+             "
+             >
+        </div>
+        <div style=" border: 4px solid rgb(114, 72, 0);
+         align-items: center;
+             position: absolute;
+             width: 148px;
+             height: 25px;
+             top: 65;
+             left:  20;
+             bottom: 300;">
+        <div 
+        id="PlayerPower"
+            style="
+             background-color: rgb(14, 157, 246); 
+             width: 0px;
+             height: 20px;
+             flex-shrink: 0;
+             display: flex;
+            
+             align-items: center;
+             position: absolute;
+             top: -2;
+             left:  0;
+             bottom: 0;
+             
+             "
+             >
+             </div>
+            </div>
+
+        <div 
+            style="
+             background-color: rgba(100, 150, 185, 0); 
+             width: 154px;
+             height: 35px;
+             flex-shrink: 0;
+             display: flex;
+             border: 4px solid rgb(114, 72, 0);
+             align-items: center;
+             position: absolute;
+             top: 27;
+             left:  308;
+             bottom: 300;
+             
+             "
+             >
+        </div>
+        <div 
+        style="
+         background-color: rgba(100, 150, 185, 0); 
+         width: 154px;
+         height: 35px;
+         flex-shrink: 0;
+         display: flex;
+         border: 4px solid rgb(114, 72, 0);
+         align-items: center;
+         position: absolute;
+         top: 27;
+         left:  560;
+         bottom: 300;
+         
+         "
+         >
+    </div>
+    <div 
+        style="
+         background-color: rgba(100, 150, 185, 0); 
+         width: 154px;
+         height: 35px;
+         flex-shrink: 0;
+         display: flex;
+         border: 4px solid rgb(114, 72, 0);
+         align-items: center;
+         position: absolute;
+         top: 27;
+         left:  710;
+         bottom: 300;
+         
+         "
+         >
+    </div>
+    <div 
+        style="
+         background-color: rgba(100, 150, 185, 0); 
+         width: 148px;
+         height: 35px;
+         flex-shrink: 0;
+         display: flex;
+         border: 4px solid rgb(114, 72, 0);
+         align-items: center;
+         position: absolute;
+         top: 27;
+         left:  860;
+         bottom: 300;
+         
+         "
+         >
+    </div>
+        </div>
+        
+        <div 
+        id="displaytext"
+        style="
+        position:absolute; 
+        color: white; 
+        align-items: center; 
+        justify-content: center;
+        top: -100; 
+        right: 0; 
+        bottom: 0; 
+        left: 0;
+        display: none;
+        ">
+            Tie
+            
+        </div>
+    <canvas>
+        
+    </canvas>
+</div>
+
+    </section>
+    <!--red cont div-->
+   
+    </div>
+    <script src = "classes.js"></script>
+<script src = "utils.js"></script>
+<script src = "fg.js"></script>
+</body>
